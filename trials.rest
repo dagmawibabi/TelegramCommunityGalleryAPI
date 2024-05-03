@@ -10,6 +10,10 @@ POST http://localhost:3000/submitCommunity HTTP/1.1
 content-type: application/json
 
 {
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+    "name": "Dagmawi Babi",
+    "link": "@Dagmawi_Babi",
+    "description": "Believer | Creative Developer",
+    "owner": "@DagmawiBabi",
+    "tags": ["Tech","Spiritual", "News"],
+    "type": "channel"
 }

@@ -41,7 +41,7 @@ app.get('/getCommunities', async(c) => {
 
 //* SUBMIT A NEW COMMUNITY
 app.post('/submitCommunity', async (c) => {
-  const body = await c.req.parseBody();
+  const body = await c.req.json();
 
   const db = client.db(dbName);
   const collection = db.collection('communities');
